@@ -6,7 +6,7 @@ const Form = () => {
   return (
       <div className="mt-5 mb-20">
           <HeadingText type={2}>Juste une petite question...</HeadingText>
-          <Paragraph>Après toutes ces années et pour l'année qui vient,<br/>veux-tu être ma Valentine ?? 🙈</Paragraph>
+          <Paragraph>Après toutes ces années,<br/>veux-tu être ma Valentine pour l'année qui vient ?? 🙈</Paragraph>
           <div className="flex justify-center items-center mt-10">
               <Button isSuccess={false}>Non</Button>
               <Button isSuccess={true}>Oui</Button>
